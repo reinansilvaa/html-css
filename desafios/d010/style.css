@@ -1,0 +1,152 @@
+/*
+
+import url('url.//dadsdas')
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+   --cor0: #026873;
+   --cor1: #04BF8A;
+   --cor2: #024059;
+   --cor3: #025940;
+   --cor4: #03A64A;
+   --cor5: #026873;
+
+   --fonte-padrao: Arial, Helvetica, sans-serif;
+   --fonte-destaque: ;
+   --fonte-android: ;
+}
+
+*/
+
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #04BF8A;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(to top, #025940, #03A64A);
+    text-align: center;
+    height: 180px;
+}
+#principal {
+    color: white;
+    padding: 20px;
+}
+
+#h2p {
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    text-align: left;
+    justify-content: center;
+}
+
+nav > ul {
+  list-style: none; /* Remove os marcadores de lista padrão */
+  display: flex;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.nav:hover {
+    background-color: #04BF8A;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#video {
+    margin: 0 auto;
+}
+
+#h1s {
+    text-align: justify;
+    padding: 20px;
+}
+
+article > p {
+    padding: 20px;
+}
+
+article > h2 {
+    padding: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+article > img {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #04BF8A;
+    padding-bottom: 10px;
+}
+
+#foot {
+    background-color: #026873;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pt1 {
+    text-decoration: none;
+}
+
+.pt2 {
+    text-decoration: none;
+}
+
+div > ul {
+    list-style-position: inside;
+    columns: 2;
+    padding-left: 5px;
+}
+
+#h3f {
+    padding: 20px;
+}
+
+#pf {
+    padding: 20px;
+}
+
+#dev {
+    background-color: #024059;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+}
